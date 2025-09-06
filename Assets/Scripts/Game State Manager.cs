@@ -41,7 +41,22 @@ public class GameStateManager : MonoBehaviour
         }
     }
 
-  
+    private void Awake()
+    {
+        // Lógica do Singleton
+        if (Instance == null)
+        {
+            // Se não existe nenhuma instância, esta se torna a instância global.
+            Instance = this;
+            // DontDestroyOnLoad(gameObject); // Opcional, se precisar que ele persista entre cenas.
+        }
+        else
+        {
+            // Se uma instância já existe, esta é uma duplicata e deve ser destruída.
+            Destroy(gameObject);
+        }
+    }
+
 
     private void Start()
     {
