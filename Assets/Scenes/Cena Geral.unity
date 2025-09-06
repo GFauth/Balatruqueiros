@@ -317,7 +317,7 @@ Transform:
   m_GameObject: {fileID: 56370593}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 33.19, y: 18.35, z: 0}
+  m_LocalPosition: {x: 35.6, y: 18.27, z: 0}
   m_LocalScale: {x: 1.6136607, y: 1.6806744, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -674,7 +674,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad5e2335b51943e4686e781d0acc8020, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Fios
-  idDoFio: 2
+  idDoFio: 0
   Cortado: {fileID: -7598008358404117535, guid: 5289c32b65df70747ab46e1348bda979, type: 3}
 --- !u!95 &146040125
 Animator:
@@ -765,7 +765,7 @@ Transform:
   m_GameObject: {fileID: 146040123}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 34.92, y: 18.34, z: 0}
+  m_LocalPosition: {x: 39.199997, y: 18.19, z: 0}
   m_LocalScale: {x: 1.6136607, y: 1.6806744, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1078,7 +1078,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad5e2335b51943e4686e781d0acc8020, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Fios
-  idDoFio: 7
+  idDoFio: 0
   Cortado: {fileID: -7598008358404117535, guid: 5289c32b65df70747ab46e1348bda979, type: 3}
 --- !u!95 &226188069
 Animator:
@@ -1169,8 +1169,8 @@ Transform:
   m_GameObject: {fileID: 226188067}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 39.64, y: 18.26, z: 0}
-  m_LocalScale: {x: 1.5014656, y: 1.6806744, z: 1}
+  m_LocalPosition: {x: 32.98, y: 18.19, z: 0}
+  m_LocalScale: {x: 0.4452085, y: 1.6806744, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1206,7 +1206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad5e2335b51943e4686e781d0acc8020, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Fios
-  idDoFio: 6
+  idDoFio: 0
   Cortado: {fileID: -7598008358404117535, guid: 5289c32b65df70747ab46e1348bda979, type: 3}
 --- !u!95 &241441237
 Animator:
@@ -1297,8 +1297,8 @@ Transform:
   m_GameObject: {fileID: 241441235}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 38.7, y: 18.2518, z: 0}
-  m_LocalScale: {x: 1.5785837, y: 1.5811541, z: 1}
+  m_LocalPosition: {x: 37.359997, y: 18.27, z: 0}
+  m_LocalScale: {x: 4.4182725, y: 1.6806744, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1479,6 +1479,37 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 35.8, y: -0.1, z: 0}
   m_LocalScale: {x: 5.6711, y: 4.6286, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &395580847
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 395580848}
+  m_Layer: 0
+  m_Name: AncoraLivro5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &395580848
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 395580847}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -31.6, y: 21.65, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2498,7 +2529,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad5e2335b51943e4686e781d0acc8020, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Fios
-  idDoFio: 3
+  idDoFio: 0
   Cortado: {fileID: -7598008358404117535, guid: 5289c32b65df70747ab46e1348bda979, type: 3}
 --- !u!95 &649087681
 Animator:
@@ -2589,7 +2620,7 @@ Transform:
   m_GameObject: {fileID: 649087679}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 35.74, y: 18.29, z: 0}
+  m_LocalPosition: {x: 38.53, y: 18.27, z: 0}
   m_LocalScale: {x: 1.6136607, y: 1.6806744, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3359,7 +3390,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad5e2335b51943e4686e781d0acc8020, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Fios
-  idDoFio: 5
+  idDoFio: 0
   Cortado: {fileID: -7598008358404117535, guid: 5289c32b65df70747ab46e1348bda979, type: 3}
 --- !u!95 &962383497
 Animator:
@@ -3450,7 +3481,7 @@ Transform:
   m_GameObject: {fileID: 962383495}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 37.73, y: 18.27, z: 0}
+  m_LocalPosition: {x: 34.579998, y: 18.27, z: 0}
   m_LocalScale: {x: -2.4059682, y: 1.550739, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3467,6 +3498,7 @@ GameObject:
   - component: {fileID: 967225805}
   - component: {fileID: 967225804}
   - component: {fileID: 967225806}
+  - component: {fileID: 967225807}
   m_Layer: 0
   m_Name: The second sex_0
   m_TagString: Untagged
@@ -3565,6 +3597,52 @@ MonoBehaviour:
   The_four_Horsemen_of_the_Apocalypse: {fileID: 1765098820}
   Eternitys_end: {fileID: 1786721492}
   Livro: {fileID: 967225803}
+--- !u!61 &967225807
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 967225803}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.91, y: 5.52}
+    newSize: {x: 0.91, y: 5.52}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.91, y: 5.52}
+  m_EdgeRadius: 0
 --- !u!1 &969780437
 GameObject:
   m_ObjectHideFlags: 0
@@ -3962,14 +4040,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RandomizarFios
   FiosDisponiveis:
-  - {fileID: 56370597}
-  - {fileID: 1472440925}
-  - {fileID: 146040124}
-  - {fileID: 649087680}
-  - {fileID: 1900389880}
-  - {fileID: 962383496}
-  - {fileID: 241441236}
-  - {fileID: 226188068}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   numeroDeFios: 7
 --- !u!4 &1113046864
 Transform:
@@ -3997,6 +4075,8 @@ GameObject:
   - component: {fileID: 1155812225}
   - component: {fileID: 1155812224}
   - component: {fileID: 1155812223}
+  - component: {fileID: 1155812226}
+  - component: {fileID: 1155812227}
   m_Layer: 0
   m_Name: Genesis_0
   m_TagString: Untagged
@@ -4011,7 +4091,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1155812222}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 221f64a074f81e24f94005790d547959, type: 3}
   m_Name: 
@@ -4095,6 +4175,71 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1155812226
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1155812222}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.91, y: 5.49}
+    newSize: {x: 0.91, y: 5.49}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.91, y: 5.49}
+  m_EdgeRadius: 0
+--- !u!114 &1155812227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1155812222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff50b3a4559c889458024a2bb028d0fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ArrastaLivros
+  anc1: {fileID: 2129653752}
+  anc2: {fileID: 1231135254}
+  anc3: {fileID: 1343857104}
+  anc4: {fileID: 2129528259}
+  anc5: {fileID: 395580847}
+  Controler: {fileID: 1881226747}
+  BookID: 1
 --- !u!1 &1160028751
 GameObject:
   m_ObjectHideFlags: 0
@@ -4258,36 +4403,13 @@ GameObject:
   m_Component:
   - component: {fileID: 1220575939}
   - component: {fileID: 1220575938}
-  - component: {fileID: 1220575937}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: estante cinza_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!95 &1220575937
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1220575936}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a0a45bcdc5376cd4f9b8ccaa59c3eb9c, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!212 &1220575938
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4355,8 +4477,39 @@ Transform:
   m_GameObject: {fileID: 1220575936}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -34.99, y: 16.62, z: -1}
+  m_LocalPosition: {x: -35.37, y: 16.64, z: -1}
   m_LocalScale: {x: 1.9305221, y: 2.3362067, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1231135254
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1231135255}
+  m_Layer: 0
+  m_Name: AncoraLivro2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1231135255
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231135254}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -37.52, y: 21.65, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -4508,7 +4661,38 @@ Transform:
   m_GameObject: {fileID: 1327170407}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -34.3, y: 16.4, z: 0}
+  m_LocalPosition: {x: -35.15, y: 16.68, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1343857104
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1343857105}
+  m_Layer: 0
+  m_Name: AncoraLivro3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1343857105
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343857104}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -35.72, y: 21.65, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4678,6 +4862,7 @@ GameObject:
   - component: {fileID: 1462635742}
   - component: {fileID: 1462635741}
   - component: {fileID: 1462635740}
+  - component: {fileID: 1462635743}
   m_Layer: 0
   m_Name: Between heaven and hell_0
   m_TagString: Untagged
@@ -4776,6 +4961,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1462635743
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462635739}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 5.51}
+    newSize: {x: 0.92, y: 5.51}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.92, y: 5.51}
+  m_EdgeRadius: 0
 --- !u!1 &1472440924
 GameObject:
   m_ObjectHideFlags: 0
@@ -4807,7 +5038,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad5e2335b51943e4686e781d0acc8020, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Fios
-  idDoFio: 1
+  idDoFio: 0
   Cortado: {fileID: -7598008358404117535, guid: 5289c32b65df70747ab46e1348bda979, type: 3}
 --- !u!95 &1472440926
 Animator:
@@ -4898,7 +5129,7 @@ Transform:
   m_GameObject: {fileID: 1472440924}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 34.05, y: 18.32, z: 0}
+  m_LocalPosition: {x: 33.76, y: 18.27, z: 0}
   m_LocalScale: {x: 1.6136607, y: 1.6806744, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5068,6 +5299,7 @@ GameObject:
   - component: {fileID: 1765098822}
   - component: {fileID: 1765098821}
   - component: {fileID: 1765098823}
+  - component: {fileID: 1765098824}
   m_Layer: 0
   m_Name: the four horsemen of the apocalipse_0
   m_TagString: Untagged
@@ -5166,6 +5398,52 @@ MonoBehaviour:
   The_four_Horsemen_of_the_Apocalypse: {fileID: 1765098820}
   Eternitys_end: {fileID: 1786721492}
   Livro: {fileID: 1765098820}
+--- !u!61 &1765098824
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1765098820}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.91, y: 5.51}
+    newSize: {x: 0.91, y: 5.51}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.91, y: 5.51}
+  m_EdgeRadius: 0
 --- !u!1 &1786721492
 GameObject:
   m_ObjectHideFlags: 0
@@ -5177,6 +5455,7 @@ GameObject:
   - component: {fileID: 1786721494}
   - component: {fileID: 1786721493}
   - component: {fileID: 1786721495}
+  - component: {fileID: 1786721496}
   m_Layer: 0
   m_Name: eternitys end_0
   m_TagString: Untagged
@@ -5275,6 +5554,52 @@ MonoBehaviour:
   The_four_Horsemen_of_the_Apocalypse: {fileID: 1765098820}
   Eternitys_end: {fileID: 1786721492}
   Livro: {fileID: 1786721492}
+--- !u!61 &1786721496
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786721492}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.93, y: 5.52}
+    newSize: {x: 0.93, y: 5.52}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.93, y: 5.52}
+  m_EdgeRadius: 0
 --- !u!1 &1790213824
 GameObject:
   m_ObjectHideFlags: 0
@@ -5432,6 +5757,60 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!1 &1881226747
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1881226749}
+  - component: {fileID: 1881226748}
+  m_Layer: 0
+  m_Name: Controle Livros
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!95 &1881226748
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881226747}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!4 &1881226749
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881226747}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -32.22441, y: 25.97334, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1900389879
 GameObject:
   m_ObjectHideFlags: 0
@@ -5463,7 +5842,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad5e2335b51943e4686e781d0acc8020, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Fios
-  idDoFio: 4
+  idDoFio: 0
   Cortado: {fileID: -7598008358404117535, guid: 5289c32b65df70747ab46e1348bda979, type: 3}
 --- !u!95 &1900389881
 Animator:
@@ -5554,7 +5933,7 @@ Transform:
   m_GameObject: {fileID: 1900389879}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 36.69, y: 18.25, z: 0}
+  m_LocalPosition: {x: 36.23, y: 18.310001, z: 0}
   m_LocalScale: {x: 1.6136607, y: 1.6806744, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5594,7 +5973,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 33, y: -55}
+  m_AnchoredPosition: {x: 1140, y: 66}
   m_SizeDelta: {x: 573.44, y: 239.4911}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1958270804
@@ -6002,6 +6381,68 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2129528259
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2129528260}
+  m_Layer: 0
+  m_Name: AncoraLivro4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2129528260
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129528259}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -33.6, y: 21.65, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2129653752
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2129653753}
+  m_Layer: 0
+  m_Name: AncoraLivro1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2129653753
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129653752}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -39.43, y: 21.65, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2138622236
 GameObject:
   m_ObjectHideFlags: 0
@@ -6099,3 +6540,9 @@ SceneRoots:
   - {fileID: 1765098822}
   - {fileID: 967225805}
   - {fileID: 1786721494}
+  - {fileID: 1881226749}
+  - {fileID: 2129653753}
+  - {fileID: 1231135255}
+  - {fileID: 1343857105}
+  - {fileID: 2129528260}
+  - {fileID: 395580848}

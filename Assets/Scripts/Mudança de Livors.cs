@@ -5,6 +5,7 @@ using static UnityEngine.InputSystem.LowLevel.InputStateHistory;
 
 public class MudançadeLivors : MonoBehaviour
 {
+
     [Header("Genesis")]
     public GameObject Genesis;
     [Header("The Second Sex")]
@@ -22,6 +23,7 @@ public class MudançadeLivors : MonoBehaviour
     public GameObject Livro;
 
     Vector3 Temp;
+     int flag = 0;
 
 
 
@@ -35,47 +37,54 @@ public class MudançadeLivors : MonoBehaviour
 
             RaycastHit2D hit = Physics2D.Raycast(posicaoDoMouseNoMundo, Vector2.zero);
 
-            if (hit.collider != null && hit.collider.name == Livro.name)
+            if (hit.collider != null && hit.collider.name == Livro.name && flag == 0)
             {
+                Temp = Livro.transform.position;
+                Debug.Log("click no livro");
 
-                if(hit.collider != null && hit.collider.name == Genesis.name)
-                {
-                    Temp = Livro .transform.position;
-                    Livro.transform.position = Genesis.transform.position;
-                    Genesis.transform.position = Temp;
-                }
+                flag = 1;
 
-                if (hit.collider != null && hit.collider.name == The_Second_Sex.name)
-                {
-                    Temp = Livro.transform.position;
-                    Livro.transform.position = The_Second_Sex.transform.position;
-                    The_Second_Sex.transform.position = Temp;
-                }
+            }
 
-                if (hit.collider != null && hit.collider.name == Between_Heaven_and_Hell.name)
-                {
-                    Temp = Livro.transform.position;
-                    Livro.transform.position = Between_Heaven_and_Hell.transform.position;
-                    Between_Heaven_and_Hell.transform.position = Temp;
-                }
+            if (hit.collider != null && hit.collider.name == Genesis.name && flag == 1)
+            {
+                
+                Livro.transform.position = Genesis.transform.position;
+                Genesis.transform.position = Temp;
+                flag = 0;
+            }
+            if (hit.collider != null && hit.collider.name == The_Second_Sex.name && flag == 1)
+            {
+                
+                Livro.transform.position = The_Second_Sex.transform.position;
+                The_Second_Sex.transform.position = Temp;
+                flag = 0;
+            }
 
-                if (hit.collider != null && hit.collider.name == The_four_Horsemen_of_the_Apocalypse.name)
-                {
-                    Temp = Livro.transform.position;
-                    Livro.transform.position = The_four_Horsemen_of_the_Apocalypse.transform.position;
-                    The_four_Horsemen_of_the_Apocalypse.transform.position = Temp;
-                }
+            if (hit.collider != null && hit.collider.name == Between_Heaven_and_Hell.name && flag == 1)
+            {
+                
+                Livro.transform.position = Between_Heaven_and_Hell.transform.position;
+                Between_Heaven_and_Hell.transform.position = Temp;
+                flag = 0;
+            }
 
-                if (hit.collider != null && hit.collider.name == Eternitys_end.name)
-                {
-                    Temp = Livro.transform.position;
-                    Livro.transform.position = Eternitys_end.transform.position;
-                    Eternitys_end.transform.position = Temp;
-                }
+            if (hit.collider != null && hit.collider.name == The_four_Horsemen_of_the_Apocalypse.name && flag == 1)
+            {
+                
+                Livro.transform.position = The_four_Horsemen_of_the_Apocalypse.transform.position;
+                The_four_Horsemen_of_the_Apocalypse.transform.position = Temp;
+                flag = 0;
+            }
+
+            if (hit.collider != null && hit.collider.name == Eternitys_end.name && flag == 1)
+            {
+                
+                Livro.transform.position = Eternitys_end.transform.position;
+                Eternitys_end.transform.position = Temp;
+                flag = 0;
             }
 
         }
-
-
     }
 }
