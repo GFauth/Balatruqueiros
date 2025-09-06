@@ -21,10 +21,20 @@ public class ControladorFios : MonoBehaviour
     private int passoAtual = 0;
     private bool Finalizado = false;
 
+    // Versão mais segura do Awake() para o ControladorFios.cs
     private void Awake()
     {
+        if (instancia == null)
+        {
+            instancia = this;
+        }
+        else
+        {
+            // Se já existir uma instância, destrói esta para evitar duplicatas.
+            Destroy(gameObject);
+            return;
+        }
 
-        //função que gera a sequência aleatória
         SequenciaAleatoria();
     }
 
