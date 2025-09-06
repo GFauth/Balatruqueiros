@@ -36,9 +36,13 @@ public class ArrastaLivros : MonoBehaviour
             transform.Translate(0, 1, 0);
         }
         else if (Selected == BookID && Mouse.current.leftButton.wasPressedThisFrame)
-        { 
+        {
             Selected = 0;
             transform.Translate(0, -1, 0);
+        }
+        else if (Selected != BookID && Selected != 0 && Mouse.current.leftButton.wasPressedThisFrame)
+        {
+        
         }
         
         Controler.GetComponent<Animator>().SetInteger("Livro Selecionado", Selected);
