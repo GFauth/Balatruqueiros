@@ -77,6 +77,7 @@ public class ControladorTimerMilisegundos : MonoBehaviour
             // O tempo acabou!
             Debug.Log("O tempo acabou! Iniciando fade out...");
             tempoRestante = 0; // Trava o tempo em 0
+            GameStateManager.Instance.Timeout = true;
             AtualizarDisplayDoTimer(tempoRestante);
             estadoAtual = EstadoDoTimer.TempoEsgotado; // Muda para o próximo estado.
         }
