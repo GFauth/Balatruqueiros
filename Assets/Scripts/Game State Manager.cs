@@ -129,7 +129,7 @@ public class GameStateManager : MonoBehaviour
             textoDeStatus.color = Color.red;
             StartCoroutine(FadeOutCoroutine()); // Inicia o fade out do texto de derrota
         }
-        Morreu();
+        IniciarSequenciaDeMorte();
     }
 
     private void HandleTimeOut()
@@ -143,43 +143,49 @@ public class GameStateManager : MonoBehaviour
             textoDeStatus.color = Color.red;
             StartCoroutine(FadeOutCoroutine()); // Inicia o fade out do texto de tempo esgotado
         }
-        Morreu();
+        IniciarSequenciaDeMorte();
     }
 
     #endregion
 
     #region Lógica de Efeitos (Câmera e Fade)
 
-    private void Morreu()
+    public void IniciarSequenciaDeMorte()
     {
-        float tempoDaMorte = 0f;
-        // Verificações de segurança para evitar erros NullReferenceException
-        if (cameraPrincipal == null)
-        {
-            Debug.LogError("A referência da Câmera Principal não foi definida!");
-            return;
-        }
-        if (ancora == null)
-        {
-            Debug.LogError("A referência da Âncora não foi definida no Inspector!");
-            return;
-        }
+        Debug.Log("Iniciando a sequência de morte...");
+        StartCoroutine(MorreuCoroutine());
+    }
 
+    /// <summary>
+    /// Esta é a Corrotina que executa a sequência de morte com pausas.
+    /// Note que ela retorna um 'IEnumerator'.
+    /// </summary>
+    private IEnumerator MorreuCoroutine()
+    {
+        // --- Etapa 1: Mover para a primeira âncora ---
+        Debug.Log("Movendo para a primeira âncora.");
         float posZAtualDaCamera = cameraPrincipal.transform.position.z;
         cameraPrincipal.transform.position = new Vector3(ancora.transform.position.x, ancora.transform.position.y, posZAtualDaCamera);
-        tempoDaMorte = 0;
-        while (tempoDaMorte < duracaoDamorte)
-        {
-            tempoDaMorte += Time.deltaTime;
-        }
-        tempoDaMorte = 0;
-        float posZAtualDaCamera2 = cameraPrincipal.transform.position.z;
+
+        // --- Etapa 2: Esperar 'duracaoDamorte' segundos ---
+        Debug.Log($"Esperando por {duracaoDamorte} segundos...");
+        yield return new WaitForSeconds(duracaoDamorte); // Pausa o código aqui sem travar
+
+        // --- Etapa 3: Mover para a segunda âncora ---
+        Debug.Log("Movendo para a segunda âncora.");
         cameraPrincipal.transform.position = new Vector3(ancora2.transform.position.x, ancora2.transform.position.y, posZAtualDaCamera);
-        {
-            tempoDaMorte += Time.deltaTime;
-        }
-        float posZAtualDaCameraMorte = cameraPrincipal.transform.position.z;
+
+        // --- Etapa 4: Esperar 3 segundos ---
+        Debug.Log("Esperando por 3 segundos...");
+        yield return new WaitForSeconds(3f); // Pausa novamente
+
+        // --- Etapa 5: Mover para a âncora final ---
+        Debug.Log("Movendo para a âncora da morte.");
         cameraPrincipal.transform.position = new Vector3(ancoraMorte.transform.position.x, ancoraMorte.transform.position.y, posZAtualDaCamera);
+
+        Debug.Log("Sequência de morte finalizada.");
+        // Aqui você poderia, por exemplo, carregar a cena de Game Over.
+        // SceneManager.LoadScene("GameOver");
     }
 
 

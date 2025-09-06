@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 4b8c6dec3d3d3024fab6977b6acc00bc
+guid: 73ddd264f05cc2a4d8002ab8b6d1b963
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1328064540656176116
-    second: caracol_0
+      213: -3864220691203105466
+    second: caracol_cortado_0
+  - first:
+      213: -8591339128690524841
+    second: caracol_cortado_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: caracol_0
+      name: caracol_cortado_0
       rect:
         serializedVersion: 2
         x: 25
-        y: 26
+        y: 205
         width: 105
-        height: 304
+        height: 125
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +118,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4fb8a90d9ab3e6210800000000000000
-      internalID: 1328064540656176116
+      spriteID: 64ddf1f31c78f5ac0800000000000000
+      internalID: -3864220691203105466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracol_cortado_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 26
+        width: 90
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75dbc71d49e65c880800000000000000
+      internalID: -8591339128690524841
       vertices: []
       indices: 
       edges: []
@@ -135,7 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      caracol_0: 1328064540656176116
+      caracol_cortado_0: -3864220691203105466
+      caracol_cortado_1: -8591339128690524841
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 4b8c6dec3d3d3024fab6977b6acc00bc
+guid: f0c258d4767cb114aa00b6231d12f787
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1328064540656176116
-    second: caracol_0
+      213: -4224100263331982042
+    second: vermelho cortado_0
+  - first:
+      213: -8619259344032299687
+    second: vermelho cortado_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: caracol_0
+      name: vermelho cortado_0
       rect:
         serializedVersion: 2
-        x: 25
-        y: 26
-        width: 105
-        height: 304
+        x: 62
+        y: 122
+        width: 41
+        height: 231
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +118,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4fb8a90d9ab3e6210800000000000000
-      internalID: 1328064540656176116
+      spriteID: 6259674d03bf065c0800000000000000
+      internalID: -4224100263331982042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vermelho cortado_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 18
+        width: 37
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9550dfb1b4d326880800000000000000
+      internalID: -8619259344032299687
       vertices: []
       indices: 
       edges: []
@@ -135,7 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      caracol_0: 1328064540656176116
+      vermelho cortado_0: -4224100263331982042
+      vermelho cortado_1: -8619259344032299687
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

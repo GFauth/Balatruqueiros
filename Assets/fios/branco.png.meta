@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4b8c6dec3d3d3024fab6977b6acc00bc
+guid: 2137cac1c7cfbb540a395a01e06f802c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1328064540656176116
-    second: caracol_0
+      213: -422401362006371055
+    second: branco_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: caracol_0
+      name: branco_0
       rect:
         serializedVersion: 2
-        x: 25
-        y: 26
-        width: 105
-        height: 304
+        x: 56
+        y: 18
+        width: 47
+        height: 335
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4fb8a90d9ab3e6210800000000000000
-      internalID: 1328064540656176116
+      spriteID: 11518f00334532af0800000000000000
+      internalID: -422401362006371055
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      caracol_0: 1328064540656176116
+      branco_0: -422401362006371055
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
