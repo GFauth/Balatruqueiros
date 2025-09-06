@@ -114,7 +114,7 @@ public class GameStateManager : MonoBehaviour
         {
             textoDeStatus.gameObject.SetActive(true);
             textoDeStatus.text = "PUZZLE DONE";
-            textoDeStatus.color = Color.grey;
+            textoDeStatus.color = Color.green;
             StartCoroutine(FadeOutCoroutine()); // Inicia o fade out do texto de vitória
         }
     }
@@ -125,7 +125,7 @@ public class GameStateManager : MonoBehaviour
         if (textoDeStatus != null)
         {
             textoDeStatus.gameObject.SetActive(true);
-            textoDeStatus.text = "YOU LOST";
+            textoDeStatus.text = "TOO BAD";
             textoDeStatus.color = Color.red;
             StartCoroutine(FadeOutCoroutine()); // Inicia o fade out do texto de derrota
         }
