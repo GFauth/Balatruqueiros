@@ -317,7 +317,7 @@ Transform:
   m_GameObject: {fileID: 56370593}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 35.6, y: 18.27, z: 0}
+  m_LocalPosition: {x: 32.14, y: 18.48, z: 0}
   m_LocalScale: {x: 1.6136607, y: 1.6806744, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -764,7 +764,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad5e2335b51943e4686e781d0acc8020, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Fios
-  idDoFio: 0
+  idDoFio: 2
   Cortado: {fileID: -7598008358404117535, guid: 5289c32b65df70747ab46e1348bda979, type: 3}
 --- !u!95 &146040125
 Animator:
@@ -855,7 +855,7 @@ Transform:
   m_GameObject: {fileID: 146040123}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 39.199997, y: 18.19, z: 0}
+  m_LocalPosition: {x: 33.6, y: 18.48, z: 0}
   m_LocalScale: {x: 1.6136607, y: 1.6806744, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -926,8 +926,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -992,10 +992,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 428439046}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 125}
-  m_SizeDelta: {x: 183.4174, y: 59.0451}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -29}
+  m_SizeDelta: {x: 183.4174, y: 59.045105}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &156390750
 GameObject:
@@ -1168,7 +1168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad5e2335b51943e4686e781d0acc8020, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Fios
-  idDoFio: 0
+  idDoFio: 7
   Cortado: {fileID: -7598008358404117535, guid: 5289c32b65df70747ab46e1348bda979, type: 3}
 --- !u!95 &226188069
 Animator:
@@ -1259,8 +1259,8 @@ Transform:
   m_GameObject: {fileID: 226188067}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 32.98, y: 18.19, z: 0}
-  m_LocalScale: {x: 0.4452085, y: 1.6806744, z: 1}
+  m_LocalPosition: {x: 38.78, y: 18.58, z: 0}
+  m_LocalScale: {x: 1.8172075, y: 1.6806744, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1296,7 +1296,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad5e2335b51943e4686e781d0acc8020, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Fios
-  idDoFio: 0
+  idDoFio: 6
   Cortado: {fileID: -7598008358404117535, guid: 5289c32b65df70747ab46e1348bda979, type: 3}
 --- !u!95 &241441237
 Animator:
@@ -1387,7 +1387,7 @@ Transform:
   m_GameObject: {fileID: 241441235}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 37.359997, y: 18.27, z: 0}
+  m_LocalPosition: {x: 37.46, y: 18.47, z: 0}
   m_LocalScale: {x: 4.4182725, y: 1.6806744, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3108,7 +3108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad5e2335b51943e4686e781d0acc8020, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Fios
-  idDoFio: 0
+  idDoFio: 3
   Cortado: {fileID: -7598008358404117535, guid: 5289c32b65df70747ab46e1348bda979, type: 3}
 --- !u!95 &649087681
 Animator:
@@ -3199,7 +3199,7 @@ Transform:
   m_GameObject: {fileID: 649087679}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 38.53, y: 18.27, z: 0}
+  m_LocalPosition: {x: 34.45, y: 18.45, z: 0}
   m_LocalScale: {x: 1.6136607, y: 1.6806744, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4059,7 +4059,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad5e2335b51943e4686e781d0acc8020, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Fios
-  idDoFio: 0
+  idDoFio: 5
   Cortado: {fileID: -7598008358404117535, guid: 5289c32b65df70747ab46e1348bda979, type: 3}
 --- !u!95 &962383497
 Animator:
@@ -4150,7 +4150,7 @@ Transform:
   m_GameObject: {fileID: 962383495}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 34.579998, y: 18.27, z: 0}
+  m_LocalPosition: {x: 36.22, y: 18.43, z: 0}
   m_LocalScale: {x: -2.4059682, y: 1.550739, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5707,7 +5707,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad5e2335b51943e4686e781d0acc8020, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Fios
-  idDoFio: 0
+  idDoFio: 1
   Cortado: {fileID: -7598008358404117535, guid: 5289c32b65df70747ab46e1348bda979, type: 3}
 --- !u!95 &1472440926
 Animator:
@@ -5798,7 +5798,7 @@ Transform:
   m_GameObject: {fileID: 1472440924}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 33.76, y: 18.27, z: 0}
+  m_LocalPosition: {x: 32.83, y: 18.44, z: 0}
   m_LocalScale: {x: 1.6136607, y: 1.6806744, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6511,7 +6511,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad5e2335b51943e4686e781d0acc8020, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Fios
-  idDoFio: 0
+  idDoFio: 4
   Cortado: {fileID: -7598008358404117535, guid: 5289c32b65df70747ab46e1348bda979, type: 3}
 --- !u!95 &1900389881
 Animator:
@@ -6602,7 +6602,7 @@ Transform:
   m_GameObject: {fileID: 1900389879}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 36.23, y: 18.310001, z: 0}
+  m_LocalPosition: {x: 35.24, y: 18.48, z: 0}
   m_LocalScale: {x: 1.6136607, y: 1.6806744, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6643,7 +6643,6 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 1140, y: 66}
-  m_AnchoredPosition: {x: 0, y: -90}
   m_SizeDelta: {x: 573.44, y: 239.4911}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1958270804
